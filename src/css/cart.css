@@ -1,0 +1,120 @@
+.cart-container {
+    position:fixed;
+    width:max(25%, 300px);
+    z-index: 9999;
+    top:0;
+    right:-500px;
+    height:100%;
+    background:white;
+    box-shadow: 0px 0px 5px .5px rgb(44, 44, 44);   
+    transform: translateX(0);    
+    transition: transform 1s; 
+}
+
+.cart-container.show {
+    transform: translateX(-500px);
+    transition: transform 1s ease-in-out;
+}
+
+.cart-body {
+    height:100%;
+    overflow:auto;
+}
+
+.cart-title {
+    font-weight:600;
+    display:flex;
+    justify-content: space-between;
+    padding:16px;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+#close-cart {
+    top:0;
+    right:0;
+    margin-top: -4px;
+    margin-right:-4px;
+    border:none;
+    background:none; 
+    -webkit-transition: all .25s ease; /* Safari and Chrome */
+    -moz-transition: all .25s ease; /* Firefox */
+    -ms-transition: all .25s ease; /* IE 9 */
+    -o-transition: all .25s ease; /* Opera */
+    transition: all .25s ease;
+}
+
+#close-cart:hover {
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -moz-transform:scale(1.1); /* Firefox */
+    -ms-transform:scale(1.1); /* IE 9 */
+    -o-transform:scale(1.1); /* Opera */
+     transform:scale(1.1);
+}
+
+.empty-cart-content {
+    height:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    color:rgb(221, 221, 221);
+    text-align:center;
+}
+
+.cart-content {
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+.cart-item {
+    display:flex;
+    padding-left:48px;
+    gap:32px;
+}
+
+#cart-image {
+    width:100px;
+    height:150px;
+    border: 1px solid black;
+    border-radius:3px;
+    box-shadow: 0px 0px 5px .75px gray;
+}
+
+.cart-item div {
+    display:flex;
+    align-items:center;
+    gap:16px;
+    justify-content: center;
+}
+
+.quantity {
+    font-size:1.5rem;
+}
+
+.cartBtn {
+    border:none;
+    background:none;
+    font-weight:bold;
+    font-size:1.5rem;
+}
+
+.totalPrice {
+    position:sticky;
+    top:0;
+    background:white;
+    text-align:right;
+    padding:8px;
+    padding-right:16px;
+    font-size:1.25rem;
+    font-weight:500;
+}
+
+#pay {
+    display:flex;
+    justify-content: center;
+    margin:16px auto;
+    padding:16px;
+    
+}

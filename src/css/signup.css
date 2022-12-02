@@ -1,0 +1,137 @@
+
+#signup-container {
+    display:flex;
+    max-height:100vh;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+}
+
+.left-panel {
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    background-image:url("../images/additional/login/background.jpg");
+    background-size: cover;
+    height:100vh;
+    min-width:max(30%,200px);
+    justify-content:center;
+    align-items:center;
+}
+
+.odinheader {
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    width: 100%;
+    margin-bottom:max(100px, 10%);
+    background-color:rgba(0, 0, 0, .4);
+    padding:8px;
+    gap:16px;
+}
+
+
+.odinheader .odin{
+    display:flex;
+    align-items:center;
+    font-size:3rem;
+    color:white;
+}
+
+.odinheader img {
+    width:max(75px,20%);
+}
+
+.left-panel footer {
+    text-align:center;
+    margin-top:auto;
+    padding-bottom:4px;
+    color:white;
+    font-size:.5rem;
+}
+
+.left-panel footer a {
+    text-decoration:none;
+    color:white;
+}
+
+.right-panel {
+    display:flex;
+    flex-grow: 1;
+    flex-direction:column;
+    justify-content:center;
+    gap:16px;
+}
+
+.right-header p {
+    margin-bottom:16px;
+    padding:0 32px;
+}
+
+.right-header p, form .form-header {
+    font-weight:600;
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+}
+
+fieldset {
+    display:flex;
+    flex-direction: column;
+    padding: 16px 32px;
+    gap:16px;
+    box-shadow: 5px 5px 10px #82818f;
+    border:.1px;
+}
+
+.input {
+    display:flex;
+    flex-direction:column;
+    max-width: 300px;
+}
+
+label {
+    font-size:.7rem;
+    color:rgb(91, 91, 91);
+    font-weight:450;
+    font-family:system-ui;
+}
+
+input {
+    border:.1px solid #757678;
+    border-radius:2.5px;
+    margin-bottom:8px;
+    min-width: max(150px, 80%);
+}
+
+input:focus {
+    outline: none;
+    border-color: #665df5;
+    box-shadow: 0 0 2px #665df5;
+}
+
+button {
+    max-width: max(10%, 200px);
+    padding: 8px 0;
+    margin-left:32px;
+    background-color: midnightblue;
+    border-radius:5px;
+    color:white;
+    border:none;
+}
+
+.login {
+    margin-left:32px;
+    font-size:.75rem;
+}
+
+.swapBtn {
+    border: none;
+    font-weight:600; 
+    background-color: transparent;
+    color:black;
+    margin-left:6px;
+}

@@ -1,0 +1,150 @@
+#service, #about, #product, #contact {
+    display:flex;
+    flex-direction:column;
+    color:white;
+    -webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: black;
+}
+
+
+
+#about img, #product img {
+    height:300px;
+    width:300px;
+    object-fit: cover;
+
+}
+
+#product img {
+    height:350px;
+    width:350px;
+    object-fit: cover;
+}
+
+.learn-row {
+    padding: 0 48px;
+}
+
+/* service */
+#service {
+    padding-top:128px;
+    height:100vh;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+  
+#service h1{
+    padding-bottom: 70px;
+}
+  
+#service .row {
+    display:flex;
+    text-align: center;
+}
+
+#service img {
+    width:300px;
+    height:300px;
+    object-fit: cover;
+}
+/* about */
+  
+#about{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    padding-top: 120px;
+    height:100vh;
+}
+  
+#about h1{
+    padding-bottom: 40px;
+}
+  
+#about-col ul{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+  
+#about-col ul li{
+    padding-top: 15px;
+ 
+}
+  
+/* product */
+  
+#product{
+    padding-top: 120px;
+    padding-bottom:60px;
+    height:100vh;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+  
+#product h1{
+    padding-bottom: 70px;
+}
+  
+#product-col2 ul{
+    padding-top: 90px;
+}
+  
+#product-col2 ul li{
+    padding-top: 15px;
+}
+  
+/* Container for social + footer */
+#contact {
+    padding-top:120px;
+    height:100vh;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;  
+    display:flex;
+    flex-direction:column;
+    justify-content:center;   
+}
+/* social */
+
+#social h1{
+    padding-bottom: 70px;
+}
+  
+.social-col a:hover img{
+   transform: translateY(-10px);
+}
+  
+#social-row{
+    flex-direction: row;
+}
+  
+/* footer */ 
+#footer {
+    align-self:center;
+    justify-self:center;
+}
+
+.mb-3 {
+  padding-top: 10px;
+}
+  
+  
+/* media */
+@media only screen and (max-width: 987px){
+    .navbar-brand{
+        padding-left: 0px;
+    }
+}
+  
+@media only screen and (max-width: 768px){
+    #banner-row img{
+        padding-top: 20px;
+    }
+  
+   .social-col{
+       width: 33%;
+   }
+  
+}
