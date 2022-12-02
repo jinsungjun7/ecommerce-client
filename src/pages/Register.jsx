@@ -13,7 +13,7 @@ function Register() {
     event.preventDefault();
 
     // check fields
-    const response = await fetch('http://ecommerce-backend.up.railway.app/users/register', {
+    const response = await fetch('https://ecommerce-backend.up.railway.app/api/users/register', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -29,7 +29,7 @@ function Register() {
     console.log(data.token)
     if (data.token) {
         alert('Account successfully created');
-        window.location.href = '/ecommerce/login'
+        window.location.href = '/ecommerce-client/login'
     } else {
         alert('Your account was unable to be created due to: ' + data.error)
     }
