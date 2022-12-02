@@ -13,7 +13,7 @@ function Register() {
     event.preventDefault();
 
     // check fields
-    const response = await fetch('http://space-y-backend.herokuapp.com/api/users/register', {
+    const response = await fetch('http://ecommerce-backend.up.railway.app/users/register', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
