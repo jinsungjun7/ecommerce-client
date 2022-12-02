@@ -48,7 +48,9 @@ function Products() {
     <div style={
       {backgroundColor: 'black',
       minHeight:"100vh",
-      paddingTop: "40px",
+      paddingTop: "45px",
+      display: "flex",
+      
     }}>
       <div className="container carousel">
         <div className="slideshow-container">

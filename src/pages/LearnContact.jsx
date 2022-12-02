@@ -1,5 +1,4 @@
 import React from 'react'
-import rocket from "../images/core/rocket.jpg"
 import { UilLinkedin } from '@iconscout/react-unicons'
 import { UilInstagram } from '@iconscout/react-unicons'
 import { UilTwitter } from '@iconscout/react-unicons'
@@ -12,15 +11,15 @@ function LearnContact() {
       <div className="d-grid gap-2 d-md-flex justify-content-center">
         <div className="row align-items-center" id="social-row">
           <div className="col-md-4 social-col">
-            <a href=""
+            <a href="/ecommerce-client"
               ><UilInstagram size='2.5rem' /></a>
           </div>
           <div className="col-md-4 social-col">
-            <a href=""
+            <a href="/ecommerce-client"
               ><UilTwitter size='2.5rem' /></a>
           </div>
           <div className="col-md-4 social-col">
-            <a href=""
+            <a href="/ecommerce-client"
               ><UilLinkedin size='2.5rem' /></a>
           </div>
         </div>

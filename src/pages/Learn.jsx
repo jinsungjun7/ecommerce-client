@@ -2,7 +2,6 @@ import React from 'react'
 import '../css/learn.css'
 
 import space from "../images/core/spacelearn.jpg"
-import flyingrocket from '../images/core/rocket-learn.jpg'
 
 import LearnService from './LearnServices';
 import LearnAbout from './LearnAbout';

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import {Routes, Route} from 'react-router-dom';
-import {HashLink} from 'react-router-hash-link'
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Payment from './pages/Payment';
