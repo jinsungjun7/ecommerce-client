@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jinsungjun7.github.io/ecommerce",
+  "homepage": "https://jinsungjun7.github.io/ecommerce-client",
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",
     "@testing-library/jest-dom": "^5.16.5",
